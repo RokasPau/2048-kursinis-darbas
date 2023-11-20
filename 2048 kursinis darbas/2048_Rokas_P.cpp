@@ -12,7 +12,7 @@ const int TILE_VALUE[]={2, 4};
 
 class Board{
 	public:
-    int board[SIZE][SIZE];
+	int board[SIZE][SIZE];
     Board(){
     	for(int i=0; i<SIZE; i++){
     	    for(int j=0; j<SIZE; j++){
@@ -42,7 +42,7 @@ class Board{
 
 class TileGenerator{
 	public:
-    static void generateTile(Board& board){
+	static void generateTile(Board& board){
         vector<pair<int, int>>emptyPosition;
         for(int i=0; i<SIZE; i++){
             for(int j=0; j<SIZE; j++){
